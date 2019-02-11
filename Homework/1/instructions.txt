@@ -1,0 +1,3 @@
+3. Problem: Write a function called upperLeft, that takes a matrix and a positive integer, (say n) input argument and returns the n times n minor of the matrix.
+
+5. Problem: Write a function called chessTable that takes a positive integer input argument, say n, and returns a n times n matrix, which elements are zeros or ones. The upper left element of the output matrix is 1, the adjacent elements are different.
