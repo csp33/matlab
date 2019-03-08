@@ -1,0 +1,12 @@
+1. problem: Plot the distribution of the bmi indices (weight in kg / height^2 in meters) according to the adatok.csv file.
+
+>> heights=ad(1:1:end,1)/100;
+
+>> weights=ad(1:1:end,2)
+
+- How many people have bmi under 18? 
+>> under18=sum(bmis(:)<18) = 593
+- How many people have bmi over 25?
+>> over25=sum(bmis>25) = 15057
+- How many people have bmi between 18 and 25?
+>> between1825=sum(bmis=>18 & bmis<=25) = 4350

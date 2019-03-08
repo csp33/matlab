@@ -1,0 +1,12 @@
+>> people30logical=ad(1:end,3)<30
+>> people30weights=ad(people30logical,2)
+>> people30heights=ad(people30logical,1)./100
+
+
+- How many people under 30 years have bmi under 18? 
+>> under18y30=sum(bmis30<18) = 93
+- How many people under 30 years have bmi over 25?
+>> over25y30=sum(bmis30>25) = 2545
+- How many people over 30 years have bmi between 18 and 25?
+>> over25y30=sum(bmis30>25) = 683
+
